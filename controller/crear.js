@@ -37,8 +37,7 @@ function insertarNodo(datos, raiz, nodo, nodoAInsertar) {
                 nodo.izquierda = nuevoNodo;
                 return insertarNodo(datos, raiz, nodo);
             } else {
-                let nodoIzq = insertarNodo(datos, raiz, nodo.izquierda, nuevoNodo);
-                nodoIzq;
+                insertarNodo(datos, raiz, nodo.izquierda, nuevoNodo);
                 return insertarNodo(datos, raiz, nodo);
             }
         } else {
@@ -46,8 +45,7 @@ function insertarNodo(datos, raiz, nodo, nodoAInsertar) {
                 nodo.derecha = nuevoNodo;
                 return insertarNodo(datos, raiz, nodo);
             } else {
-                let nodoDer = insertarNodo(datos, raiz, nodo.derecha, nuevoNodo);
-                nodoDer;
+                insertarNodo(datos, raiz, nodo.derecha, nuevoNodo);
                 return insertarNodo(datos, raiz, nodo);
             }
         }
