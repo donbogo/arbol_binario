@@ -7,7 +7,7 @@ const PORT = 3000;
 const api = require('./routers/api');
 const app = express();
 app.use(cors());
-app.use(bodyParser.json());
+app.use(bodyParser.json({ type: 'application/json' }));
 app.use('/arbol_binario', api);
 
 app.get('/', (req, res) => {
