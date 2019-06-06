@@ -1,0 +1,26 @@
+{
+  "name": "arbol_binario",
+  "version": "1.0.0",
+  "description": "Árbol binario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donbogo/arbol_binario.git"
+  },
+  "author": "Andrés Bogotá - andresbogota@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/donbogo/arbol_binario/issues"
+  },
+  "homepage": "https://github.com/donbogo/arbol_binario#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonpath": "^1.0.2",
+    "underscore": "^1.9.1"
+  }
+}
